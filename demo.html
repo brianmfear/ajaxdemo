@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script>
+			(function() {
+				var callout = new XMLHttpRequest();
+				callout.open("GET","https://phyrfox-developer-edition.na3.force.com/lovingkindness/apex/acc",true);
+				callout.addEventListener("load", function() { console.log("Success"); });
+				callout.addEventListener("error", function() { console.log("Error"); });
+				callout.send(null);
+			})()
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
